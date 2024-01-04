@@ -181,7 +181,7 @@ project "SDL2"
         }
 
         postbuildcommands {
-            ("{COPY} " .. TARGET_OUTPUT_DIR ..  "/SDL2/SDL2.dll " .. TARGET_OUTPUT_DIR .. "/Sandbox")
+            --("{COPY} " .. TARGET_OUTPUT_DIR ..  "/SDL2/SDL2.dll " .. TARGET_OUTPUT_DIR .. "/Sandbox")
         }
 
         systemversion "latest"
